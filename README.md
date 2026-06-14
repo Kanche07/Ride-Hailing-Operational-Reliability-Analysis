@@ -23,8 +23,9 @@ Support hotfix and rollback decisions
 Improve driver retention and platform reliability 
 
 
-**Business Problem**
 
+
+**Business Problem**
 **Challenges**
 
 Increasing app crashes across driver sessions 
@@ -37,18 +38,22 @@ Increasing fare disputes and support workload
 
 Elevated driver churn across unstable app versions 
 
-Limited visibility into technical root causes 
+Limited visibility into technical root causes
 
 **Business Impact** 
 
 Driver dissatisfaction and attrition 
 
 Revenue loss from fare disputes 
+
 Increased driver acquisition costs 
 
 Reduced platform reliability 
 
 Increased operational support effort 
+
+ 
+
 
  
  
