@@ -1,6 +1,6 @@
-# Ride-Hailing-Operational-Reliability-Analysis
+Ride-Hailing Operational Reliability & Fare Integrity Dashboard 
 
-**Project Overview**
+Project Overview 
 
 End-to-end Operational Analytics project analyzing app stability, GPS reliability, fare integrity, and driver churn to identify high-risk app versions and support data-driven hotfix and rollback decisions. 
 
@@ -22,11 +22,12 @@ Support hotfix and rollback decisions
 
 Improve driver retention and platform reliability 
 
+ 
+ 
 
+Business Problem 
 
-
-**Business Problem**
-**Challenges**
+Challenges 
 
 Increasing app crashes across driver sessions 
 
@@ -38,9 +39,9 @@ Increasing fare disputes and support workload
 
 Elevated driver churn across unstable app versions 
 
-Limited visibility into technical root causes
+Limited visibility into technical root causes 
 
-**Business Impact** 
+Business Impact 
 
 Driver dissatisfaction and attrition 
 
@@ -53,20 +54,18 @@ Reduced platform reliability
 Increased operational support effort 
 
  
+ 
 
+Dashboard Preview 
+
+App Stability & Reliability Dashboard 
+
+Fare Integrity & Driver Impact Dashboard 
 
  
  
 
-**Dashboard Preview** 
-
-**App Stability & Reliability Dashboard** 
-
-**Fare Integrity & Driver Impact Dashboard**
- 
- 
-
-**Key Objectives** 
+Key Objectives 
 
 Centralize app stability and fare integrity metrics into a single dashboard 
 
@@ -85,102 +84,106 @@ Improve driver retention and operational reliability
  
  
 
-**Key KPIs** 
+Key KPIs 
 
-Crash Rate:
+KPI 
+
+Description 
+
+Crash Rate 
 
 Percentage of app sessions experiencing crashes 
 
-GPS Lag Rate:
+GPS Lag Rate 
 
 Percentage of sessions affected by GPS lag 
 
-Driver Churn Rate:
+Driver Churn Rate 
 
 Percentage of drivers leaving the platform 
 
-Fare Dispute Rate:
+Fare Dispute Rate 
 
 Percentage of trips resulting in disputes 
 
-Revenue at Risk:
+Revenue at Risk 
 
 Financial exposure from disputed fares 
 
-High-Risk Versions: 
+High-Risk Versions 
 
 App versions exceeding stability thresholds 
 
-Affected Sessions: 
+Affected Sessions 
 
 Sessions impacted by app crashes 
 
-Fare Error Rate: 
+Fare Error Rate 
 
 Percentage of trips with incorrect fare calculations 
 
  
  
 
-**Executive Summary** 
+Executive Summary 
 
-Overall Crash Rate reached **14.96%** 
+Overall Crash Rate reached 14.96% 
 
-Overall GPS Lag Rate reached **20.60%** 
+Overall GPS Lag Rate reached 20.60% 
 
-Driver Churn Rate increased to **24.10%** 
+Driver Churn Rate increased to 24.10% 
 
-Fare Dispute Rate reached **19.98%** 
+Fare Dispute Rate reached 19.98% 
 
-Revenue at Risk exceeded **$254K** 
+Revenue at Risk exceeded $254K 
 
-App Versions **2.3.1** and **2.4.0** recorded the highest operational risk scores 
+App Versions 2.3.1 and 2.4.0 recorded the highest operational risk scores 
 
-GPS-affected trips generated a **47.32%** Fare Error Rate 
+GPS-affected trips generated a 47.32% Fare Error Rate 
 
-Versions **2.3.1** and **2.4.0** recorded Fare Error Rates above 55% 
+Versions 2.3.1 and 2.4.0 recorded Fare Error Rates above 55% 
 
-Driver Churn exceeded **32%** on high-risk versions 
+Driver Churn exceeded 32% on high-risk versions 
 
 Analysis identified a strong relationship between app instability, fare disputes, and driver attrition 
 
  
  
 
-**Key Findings**
+Key Findings 
 
-**1. Versions 2.3.1 and 2.4.0 Drive Most Operational Risk** 
+1. Versions 2.3.1 and 2.4.0 Drive Most Operational Risk 
 
 These versions recorded the highest crash rates, GPS lag rates, fare error rates, dispute rates, and driver churn rates, making them the primary contributors to platform instability. 
 
-**2. GPS Issues Are The Primary Cause Of Fare Errors** 
+2. GPS Issues Are The Primary Cause Of Fare Errors 
 
 Trips affected by GPS issues experienced a 47.32% fare error rate compared to only 4.88% for trips without GPS issues. 
 
-**3. Driver Churn Is Concentrated In High-Risk Versions** 
+3. Driver Churn Is Concentrated In High-Risk Versions 
 
 Versions 2.3.1 and 2.4.0 recorded churn rates above 32%, significantly higher than all other versions. 
 
-**4. Fare Integrity Problems Are Concentrated In Specific Releases** 
+4. Fare Integrity Problems Are Concentrated In Specific Releases 
 
 Versions 2.3.1 and 2.4.0 generated fare error rates above 55%, creating substantial operational and financial risk. 
 
-**5. Device-Level Stability Issues Exist** 
+5. Device-Level Stability Issues Exist 
 
 Realme 8, Redmi Note 10, and Samsung Galaxy M31 recorded the highest crash rates among major devices. 
 
-**6. GPS-Related Features Generate Most Technical Events** 
+6. GPS-Related Features Generate Most Technical Events 
 
 Navigation, Fare Meter, and Map features recorded the highest GPS dropout event volumes, indicating that location services are a major source of operational disruption. 
 
-**7. Revenue Risk Is Closely Linked To Technical Instability** 
+7. Revenue Risk Is Closely Linked To Technical Instability 
 
 GPS-related fare errors and unstable app versions contributed significantly to disputed fares and revenue exposure. 
 
  
  
 
-**Recommendations** 
+Recommendations 
 
 Prioritize hotfixes for app versions 2.3.1 and 2.4.0 
 
@@ -199,7 +202,7 @@ Use operational risk scores to support release and rollback decisions
  
  
 
-**Expected Business Outcomes** 
+Expected Business Outcomes 
 
 Reduce fare disputes by at least 25% 
 
@@ -218,8 +221,9 @@ Strengthen release governance through risk-based monitoring
 Improve overall platform reliability and customer trust 
 
  
+ 
 
-**Tools & Technologies** 
+Tools & Technologies 
 
 PostgreSQL (SQL) 
 
@@ -234,5 +238,3 @@ KPI Design
 Root Cause Analysis 
 
 Operational Analytics 
-
- 
