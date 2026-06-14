@@ -40,9 +40,7 @@ This project develops a centralized Operational Reliability Dashboard to identif
 
 **Dashboard Preview** 
 
-**App Stability & Reliability Dashboard** 
-
-**Fare Integrity & Driver Impact Dashboard** 
+https://public.tableau.com/app/profile/kanche.susmitha4144/viz/Ride_Hailing_Operational_Reliability_Dashboard/Ride-HailingAppStabilityReliabilityDashboard
 
  **Key Objectives**
  
