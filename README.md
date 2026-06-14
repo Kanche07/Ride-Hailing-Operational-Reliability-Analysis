@@ -63,24 +63,26 @@ This project develops a centralized Operational Reliability Dashboard to identif
 
 **Key KPIs**
 **KPI**                 	**Description**
-Crash Rate	            Percentage of app sessions experiencing crashes
 
-GPS Lag Rate	        Percentage of sessions affected by GPS lag
+Crash Rate :	        Percentage of app sessions experiencing crashes
 
-Driver Churn Rate	    Percentage of drivers leaving the platform
+GPS Lag Rate :	        Percentage of sessions affected by GPS lag
 
-Fare Dispute Rate	    Percentage of trips resulting in disputes
+Driver Churn Rate :	    Percentage of drivers leaving the platform
 
-Revenue at Risk     	Financial exposure from disputed fares
+Fare Dispute Rate :	    Percentage of trips resulting in disputes
 
-High-Risk Versions	    App versions exceeding stability thresholds
+Revenue at Risk :    	Financial exposure from disputed fares
 
-Affected Sessions	    Sessions impacted by app crashes
+High-Risk Versions :    App versions exceeding stability thresholds
 
-Fare Error Rate	        Percentage of trips with incorrect fare calculations
+Affected Sessions :	    Sessions impacted by app crashes
+
+Fare Error Rate :        Percentage of trips with incorrect fare calculations
 
 
 **Executive Summary**
+
 	• Overall Crash Rate reached **14.96%**
 	
 	• Overall GPS Lag Rate reached **20.60%**
@@ -126,6 +128,7 @@ GPS-related fare errors and unstable app versions contributed significantly to d
 
 
 **Recommendations**
+
 	• Prioritize hotfixes for app versions 2.3.1 and 2.4.0
 	
 	• Improve GPS stability and trip tracking reliability
@@ -142,6 +145,7 @@ GPS-related fare errors and unstable app versions contributed significantly to d
 	
 
 **Expected Business Outcomes**
+
 	• Reduce fare disputes by at least 25%
 	
 	• Reduce driver churn
@@ -160,6 +164,7 @@ GPS-related fare errors and unstable app versions contributed significantly to d
 
 
 **Tools & Technologies**
+
 	• PostgreSQL (SQL)
 	
 	• Python
