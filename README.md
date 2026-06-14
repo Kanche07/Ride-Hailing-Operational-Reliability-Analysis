@@ -62,6 +62,7 @@ This project develops a centralized Operational Reliability Dashboard to identif
 	
 
 **Key KPIs**
+
 **KPI**                 	**Description**
 
 Crash Rate :	        Percentage of app sessions experiencing crashes
